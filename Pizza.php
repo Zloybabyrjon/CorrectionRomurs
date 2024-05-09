@@ -1,12 +1,14 @@
 <?php
 
+namespace Pizza;
+
 class Pizza
 {
   public string $name;
   public string $sause;
   public array $toppings;
 
-  function __construct(string $name, string $sause, array $toppings)
+  public function __construct(string $name, string $sause, array $toppings)
   {
     $this->name = $name;
     $this->sause = $sause;

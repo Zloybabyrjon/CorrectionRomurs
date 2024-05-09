@@ -1,6 +1,8 @@
 <?php
 
-require "Pizza.php";
+namespace PizzaStore;
+
+use Pizza\Pizza;
 
 class PizzaStore
 {
