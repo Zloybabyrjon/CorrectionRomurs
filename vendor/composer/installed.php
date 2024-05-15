@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'romurs/lab5-composer',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9674ac2ec2d7c5960a0bdb68b68657cab88a88fe',
+        'reference' => '6f88029170835bdfd2d352f7d6adcf7d40c4a377',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '9674ac2ec2d7c5960a0bdb68b68657cab88a88fe',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'phpstan/phpstan' => array(
             'pretty_version' => '1.11.1',
             'version' => '1.11.1.0',
@@ -27,6 +18,15 @@
             'install_path' => __DIR__ . '/../phpstan/phpstan',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'romurs/lab5-composer' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6f88029170835bdfd2d352f7d6adcf7d40c4a377',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'squizlabs/php_codesniffer' => array(
             'pretty_version' => '3.9.2',
