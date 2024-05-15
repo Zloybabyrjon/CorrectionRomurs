@@ -1,0 +1,19 @@
+{
+  "name": "romurs/lab5-composer",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "PizzaStore": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kadykov Roman",
+      "email": "1romurs@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpstan/phpstan": "^1.11",
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}
