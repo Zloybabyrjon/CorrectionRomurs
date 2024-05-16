@@ -6,14 +6,14 @@ use PizzaStore\Pizza;
 
 class PizzaStore
 {
-    public function orderPizza(string $name, string $sause, array $toppings): void
+    public function orderPizza(string $type): void
     {
-        $pizza = $this->createPizza($name, $sause, $toppings);
+        $pizza = $this->createPizza($type);
         $pizza->prepare();
         $pizza->cut();
     }
-    public function createPizza(string $name, string $sause, array $toppings): Pizza
+    public function createPizza(string $type): Pizza
     {
-        return new Pizza($name, $sause, $toppings);
+        return new Pizza('','',[]);
     }
 }
