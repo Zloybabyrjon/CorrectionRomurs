@@ -1,6 +1,6 @@
 <?php
 
-require_once 'src/PizzaStore.php';
+require_once 'vendor/autoload.php';
 
 use PizzaStore\PizzaStore;
 

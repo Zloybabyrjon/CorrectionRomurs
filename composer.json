@@ -3,7 +3,7 @@
   "type": "library",
   "autoload-dev": {
     "psr-4": {
-      "PizzaStore": "src/"
+      "PizzaStore\\": "src/"
     }
   },
   "authors": [

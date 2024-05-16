@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'PizzaStore\\Pizza' => $baseDir . '/src/Pizza.php',
+    'PizzaStore\\PizzaStore' => $baseDir . '/src/PizzaStore.php',
 );
