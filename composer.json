@@ -1,7 +1,7 @@
 {
   "name": "romurs/lab5-composer",
   "type": "library",
-  "autoload-dev": {
+  "autoload": {
     "psr-4": {
       "PizzaStore\\": "src/"
     }
